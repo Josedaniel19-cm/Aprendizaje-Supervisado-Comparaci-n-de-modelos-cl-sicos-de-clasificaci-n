@@ -1,4 +1,6 @@
 # Aprendizaje-Supervisado-Comparacion-de-modelos-clasicos-de-clasificacio
+Jose Daniel Cabarcas Mass 
+Ciencia de datos II
 1. Descripción del proyecto
 Este proyecto desarrolla un experimento de clasificación binaria para comparar el rendimiento de tres algoritmos clásicos de aprendizaje supervisado. Se utiliza el conjunto de datos Breast Cancer Wisconsin (Diagnostic) y se evalúa la capacidad de los modelos para distinguir entre diagnósticos benignos y malignos a partir de características numéricas de los núcleos celulares.
 El trabajo hace énfasis en la preparación de los datos, el uso de pipelines de preprocesamiento, la validación cruzada y la evaluación final en un conjunto de prueba que se mantiene separado durante la selección del modelo.
@@ -72,12 +74,12 @@ K Vecinos más Cercanos	0.9975	0.9779	0.9838	0.0104
 
 
 
-6.4 Interpretación
+6.4 Interpretación: 
 La Regresión Logística obtuvo el mejor promedio de ROC AUC en validación cruzada (0.9926) y la menor desviación estándar (0.0064), lo que indica un rendimiento alto y relativamente consistente entre los folds. Además, su ROC AUC en validación fue 0.9965 y en la prueba final alcanzó 0.9988.
 K Vecinos más Cercanos también mostró un buen desempeño, aunque sus puntuaciones fueron algo inferiores y su variabilidad fue mayor. El Árbol de Decisión alcanzó un ROC AUC de 1.0000 en entrenamiento, pero obtuvo 0.8561 en validación y un promedio de 0.9171 en validación cruzada. Esta diferencia es indicio de posible sobreajuste.
 Con base en las evaluaciones realizadas, la Regresión Logística se seleccionó como el modelo con mejor desempeño general entre los tres comparados. El resultado de prueba es cercano a los resultados previos, aunque corresponde a una sola partición y no garantiza el mismo rendimiento en todos los datos futuros.
 
-7. Visualizaciones incluidas
+7. Visualizaciones incluidas:
 El notebook presenta gráficos para complementar la comparación de modelos, entre ellos:
 - Distribución de las clases benignas y malignas.
 - Comparación del ROC AUC en entrenamiento, validación y validación cruzada.

@@ -96,6 +96,7 @@ El notebook presenta gráficos para complementar la comparación de modelos, ent
 - Distribución de las puntuaciones ROC AUC obtenidas en los cinco folds.
 - Comparación del desempeño de la Regresión Logística en validación, validación cruzada y prueba final.
 
-- Conclusiones
+Conclusiones
+  
 El experimento muestra que la selección de un modelo debe considerar no solo el desempeño en entrenamiento, sino también su resultado en validación y su estabilidad en validación cruzada. En este caso, la Regresión Logística presentó el mejor equilibrio entre una puntuación ROC AUC elevada y una variabilidad reducida, y mantuvo un rendimiento similar en la evaluación final. La comparación también permitió identificar señales de posible sobreajuste en el Árbol de Decisión.
 

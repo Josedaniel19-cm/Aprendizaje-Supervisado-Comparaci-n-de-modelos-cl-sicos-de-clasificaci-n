@@ -23,10 +23,11 @@ Metodología
 
 6. Resultados
 Los resultados obtenidos en la ejecución del notebook fueron:
-Modelo	ROC AUC entrenamiento	ROC AUC validación	ROC AUC medio CV	Desviación estándar CV
-Regresión Logística	0.9972	0.9965	0.9926	0.0064
-K Vecinos más Cercanos	0.9975	0.9779	0.9838	0.0104
-Árbol de Decisión	1.0000	0.8561	0.9171	0.0245
+| Modelo | ROC AUC entrenamiento | ROC AUC validación | ROC AUC medio CV | Desviación estándar CV |
+|---|---:|---:|---:|---:|
+| Regresión Logística | 0.9972 | 0.9965 | **0.9926** | **0.0064** |
+| K Vecinos más Cercanos | 0.9975 | 0.9779 | 0.9838 | 0.0104 |
+| Árbol de Decisión | 1.0000 | 0.8561 | 0.9171 | 0.0245 |
 
 La Regresión Logística fue seleccionada por obtener el mayor ROC AUC medio en validación cruzada y la menor desviación estándar. En la evaluación final alcanzó un ROC AUC de 0.9988 en el conjunto de prueba. K Vecinos más Cercanos también tuvo un rendimiento alto, mientras que la diferencia entre entrenamiento y validación del Árbol de Decisión sugiere posible sobreajuste.
 ROC AUC mide la capacidad de discriminar entre las dos clases; no significa que todas las predicciones sean correctas ni sustituye una evaluación clínica.

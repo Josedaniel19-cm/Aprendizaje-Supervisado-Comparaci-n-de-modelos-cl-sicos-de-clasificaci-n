@@ -1,8 +1,8 @@
 # Aprendizaje-Supervisado-Comparacion-de-modelos-clasicos-de-clasificacio
-#Jose Daniel Cabarcas Mass 
-#Ciencia de datos II
-1. Descripción del proyecto
-# Este proyecto desarrolla un experimento de clasificación binaria para comparar el rendimiento de tres algoritmos clásicos de aprendizaje supervisado. Se utiliza el conjunto de datos Breast Cancer Wisconsin (Diagnostic) y se evalúa la capacidad de los modelos para distinguir entre diagnósticos benignos y malignos a partir de características numéricas de los núcleos celulares.
+# Jose Daniel Cabarcas Mass 
+# Ciencia de datos II
+# 1. Descripción del proyecto
+Este proyecto desarrolla un experimento de clasificación binaria para comparar el rendimiento de tres algoritmos clásicos de aprendizaje supervisado. Se utiliza el conjunto de datos Breast Cancer Wisconsin (Diagnostic) y se evalúa la capacidad de los modelos para distinguir entre diagnósticos benignos y malignos a partir de características numéricas de los núcleos celulares.
 El trabajo hace énfasis en la preparación de los datos, el uso de pipelines de preprocesamiento, la validación cruzada y la evaluación final en un conjunto de prueba que se mantiene separado durante la selección del modelo.
 Nota de uso: este proyecto tiene fines exclusivamente académicos. Los resultados del modelo no constituyen un diagnóstico médico ni deben utilizarse para tomar decisiones clínicas.
 

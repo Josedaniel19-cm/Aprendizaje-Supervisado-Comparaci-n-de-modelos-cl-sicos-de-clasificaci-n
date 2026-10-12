@@ -28,7 +28,8 @@ El experimento se desarrolla en las siguientes etapas:
 2. Limpieza: estandarización de los nombres de las columnas, eliminación de columnas irrelevantes, codificación de la variable objetivo y revisión de valores faltantes y duplicados.
 3. División de los datos: 70 % para entrenamiento, 15 % para validación y 15 % para prueba. Se usa estratificación para conservar aproximadamente la proporción de las clases en cada partición.
 
-# 4. Preprocesamiento: StandardScaler dentro de un Pipeline. De esta forma, el escalador se ajusta solamente con los datos de entrenamiento de cada partición y se reduce el riesgo de fuga de información (data leakage).
+# 4. Preprocesamiento:
+StandardScaler dentro de un Pipeline. De esta forma, el escalador se ajusta solamente con los datos de entrenamiento de cada partición y se reduce el riesgo de fuga de información (data leakage).
 Entrenamiento y comparación: se entrenan tres clasificadores con sus hiperparámetros por defecto:- Regresión Logística (LogisticRegression).
 - K Vecinos más Cercanos (KNeighborsClassifier).
 - Árbol de Decisión (DecisionTreeClassifier).

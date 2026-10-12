@@ -70,18 +70,6 @@ K Vecinos más Cercanos	0.9975	0.9779	0.9838	0.0104
 Árbol de Decisión	1.0000	0.8561	0.9171	0.0245
 
 
-6.2 Resultados de los cinco folds
-Modelo	Fold 1	Fold 2	Fold 3	Fold 4	Fold 5
-Regresión Logística	0.9960	0.9967	0.9867	1.0000	0.9834
-K Vecinos más Cercanos	0.9950	0.9963	0.9810	0.9697	0.9769
-Árbol de Decisión	0.9200	0.9067	0.9567	0.8810	0.9210
-
-6.3 Evaluación final del modelo seleccionado
-La Regresión Logística fue evaluada una vez más sobre el conjunto de prueba, que se había mantenido reservado durante la selección del modelo.
-Evaluación	ROC AUC
-Validación	0.9965
-Validación cruzada (media)	0.9926
-Prueba final	0.9988
 
 
 6.4 Interpretación
